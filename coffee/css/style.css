@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all .1s ease-in;
+}
+
+body {
+    background-color: rgb(253, 222, 126);
+}
+
+.price {
+    font-family: "Dosis";
+    font-size: 70px;
+    color: rgb(2, 153, 91);
+    margin: 30px 0 15px 0;
+}
+
+h3 {
+    font-family: "Dosis";
+    font-size: 51px;
+    color: rgb(51, 51, 51);
+    margin-top: 15px;
+}
+
+.description {
+    font-family: "Lato";
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 91px;
+}
+
+.container div {
+    width: 360px;
+    height: 440px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+}
+
+#tall {
+    height: 510px;
+    margin: 0 30px;
+}
+
+#tall .price {
+    margin: 50px 0 30px 0;
+}
+
+#tall h3 {
+    margin-top: 25px;
+}
+
+.container div:hover {
+    background-color: rgb(255, 247, 224);
+    border-color: rgb(165, 147, 93);
+}
